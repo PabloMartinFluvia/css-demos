@@ -1,0 +1,2 @@
+1. Mirar apartat de **funcions** en FirstSteps/ComoSeEstructuraElCSS. [Link](https://developer.mozilla.org/es/docs/Learn/CSS/First_steps/How_CSS_is_structured#las_funciones)
+2. Mirar apartat de **@rules** en FirstSteps/ComoSeEstructuraElCSS. [Link](https://developer.mozilla.org/es/docs/Learn/CSS/First_steps/How_CSS_is_structured#rules)
