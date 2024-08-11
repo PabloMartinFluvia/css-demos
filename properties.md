@@ -9,7 +9,7 @@
 ## Bordes
 
 - [border:] (https://developer.mozilla.org/es/docs/Web/CSS/border) abreviatura para
-  - border-color
+  - [border-color:](https://developer.mozilla.org/es/docs/Web/CSS/border-color) abreviatura per a indicar el color dels bordes de la caixa del element.
   - border-style
   - border-with
 

@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Getting started with CSS</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <div>Desc: los &lt;em&gt; descendientes de &lt;ul&gt; estan subrallados.</div>
+    <div>Desc: elementos descendientes de &lt;ul&gt; y que tengan la clase 'targetElement' estan tachados</div>
+    <div>Desc: paragrafos descendientes de ul y con la clase 'targetElement' tienen el fondo color aqua</div>
+    <div>Desc: span que sean descendientes de ul, que as u vez es descendiente de ul, tienen el fondo color coral</div>
+
+    <p class="targetElement">
+      paragrafo con clase 'targetElement' <em>con etiquetas 'em'</em> y más texto
+    </p>
+
+    <ul>UL:
+      <li><p>paragrafo normal</p></li>
+      <li><p class="targetElement">paragrafo con clase 'targetElement'</p></li> 
+      <li>text <em>con etiquetas 'em' dentro</em> y nada más </li> 
+      <li><span>texto dentro de un span</span></li>
+      <li>
+        <ul>UL:
+          <li class="targetElement">texto con clase 'targetElement' en el &lt;li&gt;</li><!--selected-->
+          <li><p class="targetElement">paragrafo con clase 'targetElement'</p></li> <!--selected-->
+          <li>text <em>con etiquetas 'em' dentro</em> y nada más</li> <!--selected-->
+          <li>texto y <span>texto dentro de un span</span> y nada más</li>
+        </ol>
+      </li>
+    </ul>
+  </body>
+</html>

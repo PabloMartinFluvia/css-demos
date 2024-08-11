@@ -1,0 +1,14 @@
+
+p::before {
+  content: ""; /* tipic truc: contingut amb cadena buida */
+  display: block;
+  width: 100px;
+  height: 100px;
+  background-color: rebeccapurple;
+  border: 1px solid black;
+}
+
+p::after {
+  content: " ➥ (amb CSS)";
+  text-decoration: underline;
+}

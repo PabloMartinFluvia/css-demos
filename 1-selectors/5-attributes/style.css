@@ -1,0 +1,40 @@
+[propiedad] {
+    font-family: 'Courier New', Courier, monospace;    
+}
+
+[propiedad="valor1" i]{ /* valor igual, ignorant si està escrit en majuscules o minuscules*/
+    background-color: gray;
+}
+
+[propiedad*="valor1"]{ /* su valor contiene la subcadena*/
+    font-weight: bold;
+}
+
+[propiedad~="valor1"]{ /* al menos uno de sus valores es igual*/
+    text-decoration: underline;
+}
+
+[propiedad$="valor1"]{ /* valor termina con este valor*/
+    border: solid thin red;
+}
+
+[propiedad^="valor1"]{ /* valor empieza con este valor*/
+    font-size: 160%;
+}
+
+[propiedad|="valor1"]{ /* valor es igual o igual seguido de un guión*/
+    color: red;
+}
+
+div[propiedad="valor1"]{ 
+    text-align: center;
+}
+
+.dreta[propiedad="valor1"]{ 
+    text-align: right;
+}
+
+
+
+
+

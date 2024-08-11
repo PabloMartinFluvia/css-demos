@@ -1,0 +1,5 @@
+
+/* se aplica cuando alguno de sus elementos tiene contenido no valido */
+::first-line {
+  font-weight: bold;
+}

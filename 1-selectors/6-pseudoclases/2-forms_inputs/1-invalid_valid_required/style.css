@@ -1,0 +1,18 @@
+
+/* se aplica cuando alguno de sus elementos tiene contenido no valido */
+form:invalid {
+    border: 5px dotted red;
+  }
+
+  input:required {
+    border-color: yellow;
+  }
+
+  /* se aplica cuando alguno de su contenido no es valido */
+  input:invalid {
+    background-color: gray;
+  }
+
+  input:valid {
+    background-color: green;
+  }

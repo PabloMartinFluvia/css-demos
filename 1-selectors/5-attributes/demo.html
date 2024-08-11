@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <title>Getting started with CSS</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+  <div propiedad="valor raro div">div seleccionado por presencia de atributo</div>
+
+  <ul>
+    <li>li sin nada</li>
+    <li propiedad="valor raro li">li seleccionado por presencia de atributo</li>
+    <li propiedad="VALOR1">li tiene el valor axacto escrito en MAYUSCULAS (i)</li>
+    <li propiedad="xxxvalor1xxx">li seleccionado por presencia de atributo y su valor contiene la subcadena del valor
+      exacto(*)</li>
+    <li propiedad="valor0 valor1 valor2">li seleccionado por presencia de atributo y uno de sus valores es el valor
+      exacto</li>
+    <li propiedad="abcde&valor1">li seleccionado por presencia de atributo y su valor termina con el valor exacto($)
+    </li>
+    <li propiedad="valor123456">li seleccionado por presencia de atributo y el valor empieza con el valor buscado (^)
+    </li>
+    <li propiedad="valor1-global">li seleccionado por presencia de atributo y el valor empieza con el valor exacto
+      seguido de un guión (-) y mas cosas</li>
+    <li propiedad="valor1">li tiene el valor axacto</li>
+
+  </ul>
+
+  <div propiedad="valor1">div con el valor axacto</div>
+  <p class="dreta" propiedad="valor1">element qualsevol amb classe 'dreta' y con el valor axacto</p>
+
+</body>
+
+</html>

@@ -1,0 +1,7 @@
+h1 + p {
+    background-color: gray;
+}
+
+h1 + p + p {
+    background-color: coral;
+}

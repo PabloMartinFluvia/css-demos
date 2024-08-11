@@ -1,0 +1,18 @@
+#target {
+    text-decoration: underline;
+}
+
+
+/*
+Mateixa fulla d'estils empleada en dos htmls diferents:
+En demo1 el id esta en un paragraf
+En demo2 el id esta en un div
+*/
+
+p#target {
+    color: red;
+}
+
+div#target{
+    color: blue;
+}

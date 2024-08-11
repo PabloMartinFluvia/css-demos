@@ -1,0 +1,25 @@
+* {
+    border: solid thin red;
+}
+
+section * {
+    color: green;
+}
+
+
+/* 
+Els 2 són el mateix, pero el * serveix per a millorar la legibilitat (vuere exemple següent)
+Guanya la segona regla (mateixa especificidad i origen -> mirar posició).
+*/
+section :first-child {
+    text-align: right; /* ignored*/
+}
+section *:first-child {
+    text-align: center; /*applied*/
+}
+
+/*l'ús de * en el cas anterior ajuda a la legibilitat per a no confondre-ho amb aquest cas 
+(s'aplica a la section que tingui aquesta pseudo-classe)*/
+section:first-child{
+    font-family: inherit;
+}

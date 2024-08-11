@@ -1,0 +1,18 @@
+/*em tag descdentant of ul*/
+ul em { 
+    text-decoration: underline;
+}
+
+ul .targetElement {
+    text-decoration: line-through;
+}
+
+/* targetElement class in paragrapgh descendant of ul */
+ul p.targetElement{
+    background-color: aqua;
+}
+
+/*gets span descendant of ul (wich is descendant of ul)*/
+ul ul span {
+    background-color: coral;
+}
